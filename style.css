@@ -1,0 +1,83 @@
+body {
+  background-color: #fcf5e5;
+}
+
+* {
+  font-family: "EB Garamond", serif;
+}
+
+#nice_box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  border: solid 1px black;
+}
+
+#presentation {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#presentation p {
+  margin: 2px;
+}
+
+#presentation h3 {
+  margin: 10px;
+}
+
+#web_content {
+  width: 100%;
+  margin: 10px auto;
+}
+
+#web_content p {
+  font-weight: 400;
+  margin: 2px;
+}
+
+#cool_stuff p,
+#not_cool_stuff p {
+  margin: 2px;
+}
+
+#cool_stuff,
+#not_cool_stuff {
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+img {
+  width: 120px;
+  margin: 0 auto;
+}
+
+#image {
+  margin: 10px auto;
+  width: 120px;
+}
+
+@media (min-width: 768px) {
+  #web_content {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  #presentation {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #nice_box {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
